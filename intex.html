@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./imagens/Novo Projeto (1).png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <title>Kaleb motos</title>
+</head>
+<body>
+
+<div class="function-bar" id="function-bar">
+  <!-- Conteúdo da barra de funções aqui -->
+  <a href="#"><img class="logo_imag" src="./imagens/Novo Projeto (1).png" alt="logo da empresa"></a>
+  <a href="#hom"><button class="butao-bara1">INÍCIO</button></a>
+  <a href="./intex-result.html" class="user"><i class="ri-chat-forward-line"></i><button class="butao-bara">PEÇAS</button></a>
+  <a href="https://www.google.com/maps/place/Kaleb+motos/@-4.4717229,-39.0679893,17z/data=!3m1!4b1!4m6!3m5!1s0x7bee1209859b559:0x663ca8e0abae984a!8m2!3d-4.4717283!4d-39.0654144!16s%2Fg%2F11scmx4_qd?entry=ttu" class="user">
+    <i class="ri-chat-forward-line"></i><button class="butao-bara">MAPS</button></a>
+  <a href="https://api.whatsapp.com/send?phone=5585996388781&text=Ol%C3%A1,%20queria%20informa%C3%A7%C3%B5es%20para%20fazer%20meu%20servi%C3%A7o" class="user">
+    <i class="ri-chat-forward-line"></i><button class="butao-bara">WhatsApp</button></a>
+  <a href="https://www.instagram.com/kalebmotos/" class="user">
+    <i class="ri-chat-forward-line"></i><button class="butao-bara">Instagram</button></a>
+  <!-- Adicione mais botões ou conteúdo conforme necessário -->
+</div>
+
+<div class="section" id="hom">
+  <div class="container">
+    <div class="container-section">
+      <div class="title">
+        <h1>Kaleb motos</h1>
+      </div>
+      <div class="content">
+        <h3>Peças & Manutenção</h3>
+        <p>O melhor lugar para a manutenção de sua motocicleta!</p>
+        <div class="button">
+          <a href="#Feedback">Faça o seu orçamento</a>
+        </div>
+      </div>
+    </div>
+    <div class="image-section">
+      <img src="###" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="carousel-container">
+  <div class="carousel">
+    <img src="./imagens/WhatsApp Image 2023-05-10 at 22.20.14.jpeg" alt="Imagem 1">
+    <img src="./imagens/WhatsApp Image 2023-06-17 at 16.01.41.jpeg" alt="Imagem 2">
+    <img src="./imagens/WhatsApp Image 2023-07-25 at 11.04.55.jpeg" alt="Imagem 3">
+    <!-- Adicione mais imagens aqui -->
+  </div>
+  <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+  <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
+
+<section class="portfolio" id="Desgin">
+  <div class="main-text">
+    <p>PROMOÇÕES</p>
+    <h2><span class="span2">OFERTAS</span> DISPONÍVEIS</h2>
+  </div>
+  <div class="portfolio-content">
+    <div class="row">
+      <img src="./imagens/WhatsApp Image 2023-05-10 at 22.20.14.jpeg" alt="">
+      <div class="layer">
+        <h5>###</h5>
+        <p>###</p>
+        <a href="./intex-result.html"><i class="ri-global-line"></i></a>
+      </div>
+    </div>
+    <!-- Adicione mais itens conforme necessário -->
+  </div>
+</section>
+
+<section class="portfolio" id="edição">
+  <div class="main-text">
+    <p>A VENDA</p>
+    <h2><span class="span2">MOTOS</span> A VENDA!</h2>
+  </div>
+</section>
+
+<section class="section2" id="Feedback">
+  <h2>Orçamentos</h2>
+  <form action="###" method="post">
+    <label>Nome</label>
+    <input type="text" name="name" id="nomeInput" placeholder="Digite seu nome" autocomplete="off" required>
+    <label>Telefone</label>
+    <input type="telefone" name="tel" placeholder="Digite seu Telefone" autocomplete="off" required>
+    <label>Dúvidas</label>
+    <textarea name="message" cols="30" rows="10" placeholder="Digite sua Dúvida" required></textarea>
+    <button id="botao" type="submit" required>Enviar</button>
+    <input type="hidden" name="accessKey" value="62f028fa-e795-40c5-85c7-705303ea1405">
+  </form>
+</section>
+
+<footer>
+  <p>&copy; Desde 2019 cuidando da sua motocicleta da melhor forma possível.</p>
+</footer>
+
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
